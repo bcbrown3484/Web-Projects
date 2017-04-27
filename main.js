@@ -13,10 +13,10 @@ if (room === 0) {
     if (selection === "1") {
         weapon = "a hair brush";
     }
-    if (selection === "2") {
+    else if (selection === "2") {
         weapon = "a hair dryer";
     }
-    if (selection === "3") {
+    else if (selection === "3") {
         weapon = "a bottle of lotion";
     } else {
         weapon = "hands";
@@ -27,10 +27,10 @@ if (room === 1) {
     if (selection === "1") {
         weapon = "a lava lamp";
     }
-    if (selection === "2") {
+    else if (selection === "2") {
         weapon = "an alarm clock";
     }
-    if (selection === "3") {
+    else if (selection === "3") {
         weapon = "a book";
     } else {
         weapon = "hands";
@@ -41,10 +41,10 @@ if (room === 2) {
     if (selection === "1") {
         weapon = "a shoe";
     }
-    if (selection === "2") {
+    else if (selection === "2") {
         weapon = "a coat hanger";
     }
-    if (selection === "3") {
+    else if (selection === "3") {
         weapon = "a loose shelf plank";
     } else {
         weapon = "hands";
@@ -55,10 +55,10 @@ if (room === 3) {
     if (selection === "1") {
         weapon = "a knife";
     }
-    if (selection === "2") {
+    else if (selection === "2") {
         weapon = "a paper towel holder";
     }
-    if (selection === "3") {
+    else if (selection === "3") {
         weapon = "a box of Cheez-Its";
     } else {
         weapon = "hands";
