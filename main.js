@@ -12,11 +12,9 @@ if (room === 0) {
     selection = window.prompt("To select type the selection number -- 1:Hair Brush, 2:Hair Dryer, 3:Bottle of Lotion -- If you do not select a weapon you will use your hands only.");
     if (selection === "1") {
         weapon = "a hair brush";
-    }
-    else if (selection === "2") {
+    } else if (selection === "2") {
         weapon = "a hair dryer";
-    }
-    else if (selection === "3") {
+    } else if (selection === "3") {
         weapon = "a bottle of lotion";
     } else {
         weapon = "hands";
@@ -26,11 +24,9 @@ if (room === 1) {
     selection = window.prompt("To select type the selection number -- 1:Lava Lamp, 2:Alarm Clock, 3:Book -- If you do not select a weapon you will use your hands only.");
     if (selection === "1") {
         weapon = "a lava lamp";
-    }
-    else if (selection === "2") {
+    } else if (selection === "2") {
         weapon = "an alarm clock";
-    }
-    else if (selection === "3") {
+    } else if (selection === "3") {
         weapon = "a book";
     } else {
         weapon = "hands";
@@ -40,11 +36,9 @@ if (room === 2) {
     selection = window.prompt("To select type the selection number -- 1:Shoe, 2:Coat Hanger, 3:Loose Shelf Plank -- If you do not select a weapon you will use your hands only.");
     if (selection === "1") {
         weapon = "a shoe";
-    }
-    else if (selection === "2") {
+    } else if (selection === "2") {
         weapon = "a coat hanger";
-    }
-    else if (selection === "3") {
+    } else if (selection === "3") {
         weapon = "a loose shelf plank";
     } else {
         weapon = "hands";
@@ -54,11 +48,9 @@ if (room === 3) {
     selection = window.prompt("To select type the selection number -- 1:Knife, 2:Paper Towel Holder, 3:Box of Cheez-Its -- If you do not select a weapon you will use your hands only.");
     if (selection === "1") {
         weapon = "a knife";
-    }
-    else if (selection === "2") {
+    } else if (selection === "2") {
         weapon = "a paper towel holder";
-    }
-    else if (selection === "3") {
+    } else if (selection === "3") {
         weapon = "a box of Cheez-Its";
     } else {
         weapon = "hands";
